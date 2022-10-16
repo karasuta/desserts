@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+body{
+    background-color: #CDFCF6;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    color:#98A8F8;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px #73777B;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #FAF7F0;
+    padding: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dessert_container{
+    border-bottom: #73777B solid 2px;
 }
-
-.App-link {
-  color: #61dafb;
+.title_container{
+    display: flex;
+    justify-content: space-between;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title_container{
+    margin-top: 25px;
+}
+.dessert_name{
+    color: #98A8F8;
+}
+.dessert_country{
+    color:#73777B;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border: #73777B solid 1px;
+    background-color: #BCCEF8;
+    padding: 10px;
+    color: #73777B;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+p{
+    color: #73777B;
+}
+.bnt_delete_container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.btn_delete{
+    background-color: #98A8F8;
+    padding: 10px;
+    color: #73777B;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@media all and (max-width:550px) {
+    .app{
+        width: 350px;
+    }
+    img{
+        width: 350px;
+    }
 }
